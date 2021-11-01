@@ -1,0 +1,24 @@
+main > .container {
+    padding: 50px 15px 0;
+    margin-bottom: 50px;
+}
+footer {
+    background-color: $darkgray;
+    color: $gray-400;
+    // .container .row div{
+    //     margin-bottom: 1em;
+    // }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li > a {
+            text-decoration: none;
+        }
+    }
+    .cc0{
+        color: $gray-600;
+        font-size: 0.8em;
+    }
+    
+}

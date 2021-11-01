@@ -1,0 +1,28 @@
+header .navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+    a,
+    // button,
+    .nav-item a:hover,
+    .nav-item a:active,
+    .nav-item a:focus{
+        color: $white;
+    }
+    .dropdown .dropdown-menu a{
+        color: $gray-900;
+    }
+    // .navbar-brand,
+    // .navbar-toggler,
+    .navbar-brand,
+    .nav-item{
+        padding: 1rem;
+    }
+    .nav-item:hover,
+    .dropdown .dropdown-menu a:hover{
+        background-color: $green-2;
+        color: $white;
+    }
+    .dropdown-menu{
+        border-radius: 0;
+    }
+}
